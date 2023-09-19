@@ -99,7 +99,7 @@ h3.actives {
 section.your-favorite {
     background-image: url(background-img.png);
     text-align: center;
-    padding: 220px 0 135px 0;
+    padding: 200px 0 135px 0;
     /* padding: 190px 0 150px 0; */
     position: relative;
     /* z-index: 1; */
@@ -110,7 +110,7 @@ section.your-favorite {
 }
 
 .heading_a h1 {
-    font-size: 65px;
+    font-size: 4.1rem;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -118,8 +118,8 @@ section.your-favorite {
 }
 
 .heading_a p {
-    margin-top: 20px;
-    font-size: 22px;
+    margin-top: 30px;
+    font-size: 1.4rem;
     color: white;
     font-family: 'Raleway', sans-serif;
     line-height: 25px;
@@ -127,7 +127,7 @@ section.your-favorite {
 
 button.c1 {
     background-color: #e84545;
-    margin-top: 50px;
+    margin-top: 80px;
     border: none;
     color: white;
     text-transform: uppercase;
@@ -519,6 +519,8 @@ button.c1:hover {
 
 /* //responsive// */
 
+
+
 @media(max-width:1024px) {
     .main-header {
         flex-wrap: wrap;
@@ -558,7 +560,13 @@ button.c1:hover {
     }
 
     .heading_a h1 {
-        font-size: 50px;
+        font-size: 3.35rem;
+        line-height: 65px;
+    }
+
+    .heading_a p {
+        font-size: 1.1rem;
+        padding: 0 21px;
     }
 
     .member {
@@ -590,7 +598,9 @@ button.c1:hover {
     }
 
     .heading_a h1 {
-        font-size: 35px;
+        font-size: 3.25rem;
+        line-height: 60px;
+        padding: 0 20px;
     }
 
     .sharedop {
@@ -639,10 +649,16 @@ button.c1:hover {
         margin-left: 20px;
     }
 
+    .heading_a h1 {
+        font-size: 3.10rem;
+        line-height: 60px;
+    }
+
     .heading_a p {
         margin-top: 30px;
         text-align: center;
         padding: 0 10px;
+        line-height: 30px;
     }
 
     .center-content h1 {
@@ -713,7 +729,8 @@ button.c1:hover {
     }
 
     .heading_a h1 {
-        font-size: 30px;
+        font-size: 2.6rem;
+        line-height: 60px;
     }
 
     .rightside_details {
@@ -738,7 +755,30 @@ button.c1:hover {
     }
 }
 
+@media (max-width:425px) {
+    .heading_a h1 {
+        font-size: 2.16rem;
+        line-height: 50px;
+    }
+
+    .heading_a p {
+        font-size: 1.00rem;
+        line-height: 27px;
+    }
+}
+
 @media(max-width:320px) {
+
+    .heading_a h1 {
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+
+    .heading_a p {
+        font-size: 1rem;
+        line-height: 23px;
+    }
+
     .rightside_details {
         padding: 30px 30px;
     }
