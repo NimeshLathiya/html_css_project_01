@@ -99,7 +99,7 @@ h3.actives {
 section.your-favorite {
     background-image: url(background-img.png);
     text-align: center;
-    padding: 140px 0 110px 0;
+    padding: 220px 0 135px 0;
     /* padding: 190px 0 150px 0; */
     position: relative;
     /* z-index: 1; */
@@ -110,15 +110,16 @@ section.your-favorite {
 }
 
 .heading_a h1 {
-    font-size: 55px;
+    font-size: 65px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    line-height: 71px;
 }
 
 .heading_a p {
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 22px;
     color: white;
     font-family: 'Raleway', sans-serif;
     line-height: 25px;
